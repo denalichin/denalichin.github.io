@@ -57,6 +57,9 @@ body{
     height: 30vw;
 }
 
+#info{
+    width: 40vw;
+}
 
 #title {
     color: rgb(128,126,254);
@@ -67,11 +70,3 @@ body{
     color: white;
 } 
 
-.book {
-    height: 20vh;
-    margin-right: 3vw;
-}
-
-#gallery{
-    margin-left: 10vw;
-}

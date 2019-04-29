@@ -33,30 +33,26 @@ body{
 
 
 #intro{
-    float: left;
+/*    float: left;*/
     height: 100%;
     margin-top: 20vh;
     margin-left: 10vw;
+    margin-right: 10vw;
 /*    border: solid red;*/
 }
 
+#authorpic{
+    width: 100%;
+}
 
 #dahl{
-    float: right;
+/*    float: right;*/
 /*    border: solid white 2px;*/
-    width: 30vw;
-    height: 30vw;
+/*    width: 30vw;*/
+    width: 100%;
     margin-top: 10vh;
-    margin-right: 10vw;
+/*    margin-right: 10vw;*/
 }
-
-#authorpic {
-    border-radius: 50%;
-    object-fit: cover;
-    width: 30vw;
-    height: 30vw;
-}
-
 
 #title {
     color: rgb(128,126,254);
@@ -66,12 +62,3 @@ body{
 #greeting {
     color: white;
 } 
-
-.book {
-    height: 20vh;
-    margin-right: 3vw;
-}
-
-#gallery{
-    margin-left: 10vw;
-}
