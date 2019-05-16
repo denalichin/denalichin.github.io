@@ -2,24 +2,27 @@
 
 
 
-
 function drawTriangle(){
+    let dpi = window.devicePixelRatio;
     var canvas = document.getElementById('testCanvas');
-
-    canvas.width = canvas.offsetWidth;
-    canvas.height = canvas.offsetHeight;
-
-    // canvas.width = 500;
-    // canvas.height = 500;
-    // canvas.style.width = 500;
-    // canvas.style.height = 500;
     var t = canvas.getContext("2d");
-    
+
+    //get CSS height and width
+    //the + prefix casts it to an integer
+    //the slice method gets rid of "px"
+    let style_height = +getComputedStyle(canvas).getPropertyValue("height").slice(0, -2);
+    let style_width = +getComputedStyle(canvas).getPropertyValue("width").slice(0, -2);
+    let c_height = style_height * dpi;
+    let c_width = style_width * dpi;
+    //scale the canvas
+    canvas.setAttribute('height', c_height);
+    canvas.setAttribute('width', c_width);
+
     // the triangle
     t.beginPath();
-    t.moveTo(0.5, 0.5);
-    t.lineTo(500.5, 0.5);
-    t.lineTo(250.5, 250 * Math.sqrt(3) + 0.5);
+    t.moveTo(0, 0);
+    t.lineTo(c_width, 0);
+    t.lineTo(c_width/2, (c_width/2) * Math.sqrt(3));
 
     t.closePath();
     
@@ -34,5 +37,3 @@ function drawTriangle(){
 }
 
 drawTriangle();
-
-
