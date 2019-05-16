@@ -12,10 +12,33 @@ body{
 
 #navbar{
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
     color: white;
     height: 5vh;
     align-items: center;
+}
+
+.navbutton{
+
+}
+
+#testCanvas{
+    width: 500px;
+    height: 500px;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    position: absolute;
+    border: solid green 1px;
+}
+
+#main{
+    border: solid red 1px;
+    display: flex;
+    justify-content: center;
+    margin-top: 30vh;
 }
 
 #triangle{
@@ -23,6 +46,7 @@ body{
 }
 
 #filmmaker{
+    text-align: right;
     border: solid white 1px;
     color: white;
 }
