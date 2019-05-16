@@ -3,8 +3,9 @@
 
 
 function drawTriangle(){
+
     let dpi = window.devicePixelRatio;
-    var canvas = document.getElementById('testCanvas');
+    var canvas = document.getElementById('triangle');
     var t = canvas.getContext("2d");
 
     //get CSS height and width

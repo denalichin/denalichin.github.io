@@ -22,36 +22,52 @@ body{
 
 }
 
-#testCanvas{
+#triangle{
     width: 20vw;
     height: 20vw;
+    /* top: 0; */
+    /* bottom: 0; */
+    /* left: 0; */
+    /* right: 0; */
+    /* margin: auto; */
+    /* position: absolute; */
+    /* border: solid green 1px; */
+}
+
+#main{
+    height: 20vw;
+    position: absolute;
     top: 0;
     bottom: 0;
     left: 0;
     right: 0;
     margin: auto;
-    position: absolute;
-    border: solid green 1px;
-}
 
-#main{
+
     border: solid red 1px;
     display: flex;
     justify-content: center;
-    margin-top: 30vh;
 }
 
-#triangle{
+#denali{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
     color:white;
 }
 
 #filmmaker{
+    width: 30vw;
     text-align: right;
     border: solid white 1px;
     color: white;
 }
 
 #programmer{
+    width: 30vw;
     border: solid white 1px;
     color: white;
 }
