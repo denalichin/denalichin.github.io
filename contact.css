@@ -1,9 +1,15 @@
 
 @font-face {
     font-family: 'Ailerons';
-    src: url("fonts/Ailerons.woff") format("woff"), 
-    url('fonts/Ailerons.otf') format("opentype");
+    src: url("fonts/ailerons.woff") format("woff"), 
+    url('fonts/ailerons.otf') format("opentype");
 }
+
+@font-face {
+    font-family: 'Copperplate';
+    src: url("fonts/copperplate.otf") format("opentype"); 
+}
+
 
 html{
     background-color: rgb(11,20,27);
@@ -15,10 +21,17 @@ html{
     color: white;
     height: 5vh;
     align-items: center;
+    font-family: "Copperplate", Arial, Helvetica, sans-serif;
+    font-size: .7rem;
+}
+
+.navbutton{
+    cursor: pointer;
 }
 
 #info{
     color: white;   
+    margin-left: 5vw;
     border: solid white 1px;
 }
 
@@ -26,6 +39,9 @@ html{
     color: white;
     font-family: 'Ailerons', Arial, Helvetica, sans-serif;
     font-size: 2em;
+}
+#contact{
+    font-family: "Copperplate", Arial, Helvetica, sans-serif;
 }
 
 #A{
