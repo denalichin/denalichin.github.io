@@ -1,72 +1,33 @@
+
+@font-face {
+    font-family: 'Ailerons';
+    src: url("fonts/Ailerons.woff") format("woff"), 
+    url('fonts/Ailerons.otf') format("opentype");
+}
+
+html{
+    background-color: rgb(11,20,27);
+}
+
 #navbar{
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
     color: white;
-    background-color: black;
     height: 5vh;
     align-items: center;
 }
 
-.nav{
-    margin-left: 5vw;
-    margin-right: 5vw;
-}
-
-.button{
-    color: white;
-    text-decoration: none;
-}
-
-body{
-    background-color: rgb(23,27,30);
-/*    border:solid green 2px;*/
-    min-height: 100%;
-    margin: 0;
-    overflow: auto;
-}
-
-#main{
-/*    border: solid white 2px;*/
-    overflow: hidden;
-    vertical-align: middle;
-}
-
-
-#intro{
-    float: left;
-    height: 100%;
-    margin-top: 20vh;
-    margin-left: 10vw;
-/*    border: solid red;*/
-}
-
-
-#dahl{
-    float: right;
-/*    border: solid white 2px;*/
-    width: 30vw;
-    height: 30vw;
-    margin-top: 10vh;
-    margin-right: 10vw;
-}
-
-#authorpic {
-    border-radius: 50%;
-    object-fit: cover;
-    width: 30vw;
-    height: 30vw;
-}
-
 #info{
-    width: 40vw;
+    color: white;   
+    border: solid white 1px;
 }
 
-#title {
-    color: rgb(128,126,254);
-    font-family: "Helvetica";
-}
-
-#greeting {
+.denali{
     color: white;
-} 
+    font-family: 'Ailerons', Arial, Helvetica, sans-serif;
+    font-size: 2em;
+}
 
+#A{
+    color: #BD8D2D;
+}
