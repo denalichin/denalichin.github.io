@@ -21,29 +21,15 @@ html, body{
 
 #contents{
     padding-top: 5vh;
-    height: 100%;
+    height: auto%;
     width: 100%;
     /* border: solid white 1px; */
     display: flex;
     flex-direction: row-reverse
 }
 
-#navbar{
-    display: flex;
-    justify-content: space-around;
-    color: white;
-    height: 5vh;
-    align-items: center;
-    font-family: "Copperplate", Arial, Helvetica, sans-serif;
-    font-size: .7rem;
-}
-
-.navbutton{
-    cursor: pointer;
-}
-
 #info{
-    margin-right: 45%;
+    margin-right: 48%;
     margin-top: 10vh;
     color: white;   
     margin-left: 5vw;
