@@ -7,6 +7,7 @@
     align-items: center;
     font-family: "Copperplate", Arial, Helvetica, sans-serif;
     font-size: .7rem;
+    margin: 0;
     /* border: solid white 1px; */
 }
 
@@ -73,7 +74,7 @@ li:nth-of-type(3):hover ~ .underbar {
     box-shadow: 0 0 10px #46fafa;
 }
 li:nth-of-type(4):hover ~ .underbar {
-    left: 85.7%;
+    left: 86.5%;
     width: 4rem;
     height: 1px;
     background: rgba(0, 253, 253, 0.5);
