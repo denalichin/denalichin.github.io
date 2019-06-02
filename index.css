@@ -1,7 +1,17 @@
-@font-face {
+/* @font-face {
     font-family: 'Ailerons';
     src: url('fonts/ailerons.otf') format("opentype");
-    /* url("fonts/ailerons.woff") format("woff"); */
+    url("fonts/ailerons.woff") format("woff");
+} */
+
+@font-face {
+    font-family: 'Ailerons';
+    src: url('fonts/ailerons.woff2') format('woff2'),
+         url('fonts/ailerons.woff') format('woff'),
+         url('fonts/ailerons.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+
 }
 
 @font-face {
@@ -46,7 +56,7 @@ html, body{
     right: auto;
     margin: 0 auto;
     color:white;
-    font-family: "Copperplate", Arial, Helvetica, sans-serif;
+    font-family: "Ailerons", Arial, Helvetica, sans-serif;
     font-size: 3vw;
     line-height: .7vw;
 }
