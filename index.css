@@ -6,8 +6,8 @@
 
 @font-face {
     font-family: 'Ailerons';
-    src: /*url('fonts/ailerons.woff2') format('woff2'),*/
-         /* url('fonts/ailerons.woff') format('woff'), */
+    src: url('fonts/ailerons.woff2') format('woff2'),
+         url('fonts/ailerons.woff') format('woff'),
          url('fonts/ailerons.ttf') format('truetype');
     font-weight: normal;
     font-style: normal;
