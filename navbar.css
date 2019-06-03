@@ -2,7 +2,6 @@
 #navbar{
     display: flex;
     justify-content: space-around;
-    color: white;
     height: 4rem;
     align-items: center;
     font-family: "Copperplate", Arial, Helvetica, sans-serif;
@@ -11,28 +10,13 @@
     /* border: solid white 1px; */
 }
 
-/* .navbutton{
-    cursor: pointer;
-    border: solid white 1px;
-} */
-
-
-
-/* * {
-margin: 0;
-padding: 0;
+.navbutton{
+    text-decoration: none;
+    color: white;
 }
-body {
-background: #1e1e1e;
-color: white;
-font-family: sans-serif;
-} */
-/* ul {
-list-style-type: none;
-position: absolute;
-left: 20px;
-top: 20px;
-} */
+
+
+/*special thanks to https://speckyboy.com/underline-text-effects-css/ for the following code snippet*/
 .underbar {
     z-index: 0;
     width: 0;
