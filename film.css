@@ -14,10 +14,18 @@
 }
 
 html, body{
-    background: rgb(11,20,27);
+    background: black;
     min-height: 100%;
     margin: 0;
+    animation-name: darken;
+    animation-duration: 5s;
 }
+
+@keyframes darken {
+  from {background-color: rgb(11,20,27);}
+  to {background-color: black;}
+}
+
 
 #films{
     height: 100%;
