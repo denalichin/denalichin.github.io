@@ -3,6 +3,7 @@
     <head>
         <link rel="stylesheet" type="text/css" href= "film.css">
         <link rel="stylesheet" type="text/css" href="navbar.css">
+        <meta charset="utf-8"/>
     </head>
     <body>
         <ul id="navbar">
@@ -13,7 +14,7 @@
             <div class="underbar"></div>
         </ul>  
         <div id="films">
-            <div class = "videoDiv">
+            <div class = "videoDiv" onclick="playVideo(this)">
                 <img src="images/row.png" alt="Row">
                 <div class = "after">
                     <div class = "title"><p>ROW</p></div>
@@ -49,6 +50,10 @@
                 </div>
             </div>
         </div>
-
+        <div id=popup>
+                 <iframe class="video" width="560" height="315" src="https://www.youtube.com/embed/wqY088MlnhI" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </div>
+        <script src="scripts/film.js"></script>
+        
     </body>
 </html>

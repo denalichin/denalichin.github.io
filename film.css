@@ -88,3 +88,21 @@ html, body{
     border: solid white 1px;
 }
 
+#popup{
+    visibility: hidden;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left:0;
+    right: 0;
+    margin: 0 auto;
+    height: 100%;
+    width: 100%;
+    
+    color: white;
+    border: solid white 1px;
+    
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
