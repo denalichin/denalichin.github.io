@@ -14,35 +14,35 @@
             <div class="underbar"></div>
         </ul>  
         <div id="films">
-            <div class = "videoDiv" onclick="playVideo(this)">
+            <div class = "videoDiv" id="row" onclick="playVideo(this)">
                 <img src="images/row.png" alt="Row">
                 <div class = "after">
                     <div class = "title"><p>ROW</p></div>
                     <p class = "description">Row your boat</p>
                 </div>
             </div>
-            <div class = "videoDiv">
+            <div class = "videoDiv" id="shadow" onclick="playVideo(this)">
                 <img src="images/shadow.png" alt="Shadow Western">
                 <div class = "after">
                     <div class = "title"><p>SHADOW SHOWDOWN</p></div>
                     <p class = "description">A western short with silhouettes</p>
                 </div>
             </div>
-            <div class = "videoDiv">
+            <div class = "videoDiv" id="mustang" onclick="playVideo(this)">
                 <img src="images/mustang.jpg" alt="Mustang model">
                 <div class = "after">
                     <div class = "title"><p>Mustang</p></div>
                     <p class = "description">A 3D mustang model</p>
                 </div>
             </div>
-            <div class = "videoDiv">
+            <div class = "videoDiv" id="alien" onclick="playVideo(this)">
                 <img src="images/alien.png" alt="Alien Apocalypse">
                 <div class = "after">
                     <div class = "title"><p>Alien Apocalypse</p></div>
                     <p class = "description">A VFX test</p>
                 </div>
             </div>
-            <div class = "videoDiv">
+            <div class = "videoDiv" id="sixty" onclick="playVideo(this)">
                 <img src="images/sixty.jpg" alt="Sixty">
                 <div class = "after">
                     <div class = "title"><p>Sixty</p></div>
@@ -50,8 +50,12 @@
                 </div>
             </div>
         </div>
-        <div id=popup>
-                 <iframe class="video" width="560" height="315" src="https://www.youtube.com/embed/wqY088MlnhI" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        <div id=popup onclick="closePopup()">
+            <div id="innerPopup">
+                <!-- <img id="closeButton" src="images/close.svg"> -->
+                <!-- <iframe id="vimeo" src="https://player.vimeo.com/video/250036877?autoplay=1&title=0&byline=0&portrait=0" width="640" height="360" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe> -->
+            </div>
+            
         </div>
         <script src="scripts/film.js"></script>
         

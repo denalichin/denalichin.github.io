@@ -78,6 +78,7 @@ html, body{
     /* border: solid white 1px; */
     color: rgba(255, 255, 255, 0.438);
     -webkit-transition: 0.5s ease;
+    cursor: pointer;
 }
 
 #programmer{
@@ -89,6 +90,7 @@ html, body{
     /* border: solid white 1px; */
     color: rgba(255, 255, 255, 0.438);
     -webkit-transition: 0.5s ease;
+    cursor: pointer;
 }
 
 #filmmaker:hover{
