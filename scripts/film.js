@@ -18,8 +18,10 @@ function playVideo(div){
             innerPopup.innerHTML = "<img id=\"closeButton\" src=\"images/close.svg\"> <iframe src=\"https://player.vimeo.com/video/250941836?autoplay=1&title=0&byline=0&portrait=0\" width=\"640\" height=\"360\" frameborder=\"0\" allow=\"autoplay; fullscreen\" allowfullscreen></iframe>";
             break;
         case "mustang":
+            
             break;
         case "alien":
+            innerPopup.innerHTML = "<img id=\"closeButton\" src=\"images/close.svg\"> <iframe src=\"https://player.vimeo.com/video/250941297?autoplay=1&title=0&byline=0&portrait=0\" width=\"640\" height=\"360\" frameborder=\"0\" allow=\"autoplay; fullscreen\" allowfullscreen></iframe>";
             break;
         case "sixty":
             break;

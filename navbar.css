@@ -11,6 +11,10 @@
 }
 
 .navbutton{
+    display: block;
+    height: 100%;
+    width: 100%;
+    /* border: solid white 1px; */
     text-decoration: none;
     color: white;
 }
@@ -29,13 +33,14 @@
 }
 li {
     text-align: left;
-    /* border: solid white 1px; */
-    width: 50px;
-    float: left;
-    -webkit-transition: 0.5s ease;
+    /* border: solid red 1px; */
+    width: 8rem;
+    text-align: center;
     cursor: pointer;
     list-style-type: none;
+
     z-index: 9999;
+    -webkit-transition: 0.5s ease;
 }
 li:hover {
     text-shadow: 0px -2px 0px #000000, 0 0 5px rgba(255, 255, 255, 0.8), 0 -4px 15px rgba(255, 255, 255, 0.5);
@@ -46,7 +51,7 @@ li:nth-of-type(1):hover ~ .underbar {
     background: #6464c8;
 }
 li:nth-of-type(2):hover ~ .underbar {
-    left: 37.2%;
+    left: 37.8%;
     width: 2rem;
     background: #c86464;
 }
