@@ -32,6 +32,22 @@ html, body{
     margin-left: 3vw;
     margin-right: 3vw;
     -webkit-transition: 0.5s ease;
+
+    animation-name: intro;
+    animation-duration: 1s;
+}
+
+@keyframes intro {
+    from {
+        margin-top: 100px;
+        margin-left: 0;
+        margin-right: 0;
+    }
+    to {
+        margin-top: 0px;
+        margin-left: 3vw;
+        margin-right: 3vw;
+    }
 }
 
 #main{
@@ -62,7 +78,17 @@ html, body{
     font-size: 3vw;
     line-height: .7vw;
     -webkit-transition: 0.5s ease;
+
+    animation-name: fadeInCenter;
+    animation-duration: 1.5s;
 }
+
+@keyframes fadeInCenter {
+    0% {opacity: 0;}
+    50% {opacity: 0;}
+    100% {opacity: 1;}
+}
+
 
 #A{
     color:#BD8D2D;
@@ -79,6 +105,9 @@ html, body{
     color: rgba(255, 255, 255, 0.438);
     -webkit-transition: 0.5s ease;
     cursor: pointer;
+
+    animation-name: fadeIn;
+    animation-duration: 2s;
 }
 
 #programmer{
@@ -91,7 +120,18 @@ html, body{
     color: rgba(255, 255, 255, 0.438);
     -webkit-transition: 0.5s ease;
     cursor: pointer;
+
+    animation-name: fadeIn;
+    animation-duration: 2s;
+
 }
+@keyframes fadeIn {
+    from {opacity: 0;}
+    to {opacity: 1;}
+}
+
+
+
 
 #filmmaker:hover{
     color: white;

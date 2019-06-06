@@ -48,3 +48,18 @@ function drawTriangle(){
 }
 
 window.onload = drawTriangle();
+
+function reveal(){
+    let a = 'denali';
+    let b = '@';
+    let c = 'hello'
+    let d = 'g';
+    let e = 'mail';
+    let f = '.com';
+
+    let element = document.getElementById('mail');
+
+    element.textContent = a+b+d+e+f;
+    element.style.border = 'solid rgba(0,0,0,0) 1px';
+
+}
