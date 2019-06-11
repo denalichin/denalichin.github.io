@@ -70,3 +70,13 @@ li:nth-of-type(4):hover ~ .underbar {
     background: rgba(0, 253, 253, 0.5);
     box-shadow: 0 0 10px #46fafa;
 }
+
+@media(max-width:480px){
+	#navbar{
+        flex-direction: column;
+        height: 20vh;
+    }
+    .navbutton{
+        margin-top: 1vh;
+    }
+}
