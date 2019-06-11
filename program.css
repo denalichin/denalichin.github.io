@@ -1,0 +1,30 @@
+
+@font-face {
+    font-family: 'Ailerons';
+    src: url('fonts/ailerons.woff2') format('woff2'),
+         url('fonts/ailerons.woff') format('woff'),
+         url('fonts/ailerons.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'Copperplate';
+    src: url("fonts/copperplate.otf") format("opentype"); 
+}
+
+
+body, html{
+    height: 100%;
+    width: 100%;
+}
+
+body{
+    background-color: rgb(11,20,27);
+}
+
+#skills{
+    color: white;
+}
+

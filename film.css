@@ -58,7 +58,7 @@ html, body{
     cursor: pointer;
     position: relative;
     display: inline-flex;
-
+    -webkit-transition: 0.5s ease;
 }
 
 

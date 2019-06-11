@@ -38,3 +38,7 @@ function drawTriangle(){
 }
 
 drawTriangle();
+
+window.onload = function() {
+    initNavBar();
+}

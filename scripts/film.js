@@ -43,3 +43,7 @@ var stopVideo = function ( element ) {
     let innerPopup = document.getElementById("innerPopup");
     innerPopup.innerHTML = "";
 };
+
+window.onload = function() {
+    initNavBar();
+}
