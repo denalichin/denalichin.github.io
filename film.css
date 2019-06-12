@@ -26,6 +26,33 @@ html, body{
   to {background-color: black;}
 }
 
+#name{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    /* border: solid white 1px; */
+    color: white;
+    font-family: 'Ailerons', Arial, Helvetica, sans-serif;
+    animation: name;
+    animation-duration: 1.5s;
+    font-size: 1.2rem;
+}
+
+#A{
+    color:#BD8D2D;
+}
+
+@keyframes name{
+    from{
+        padding-left: 10vw;
+        opacity: 0;
+    }
+    to{
+        opacity: 1;
+    }
+}
+
+
 
 #films{
     height: 100%;
