@@ -2,7 +2,7 @@
 
 
 
-function drawTriangle(){
+function drawTriangle(stroke){
 
     let dpi = window.devicePixelRatio;
     var canvas = document.getElementById('triangle');
@@ -28,7 +28,7 @@ function drawTriangle(){
     t.closePath();
     
     // the outline
-    t.lineWidth = 2;
+    t.lineWidth = stroke;
     t.strokeStyle = '#FFFFFF';
     t.stroke();
     
@@ -37,8 +37,13 @@ function drawTriangle(){
     // t.fill();
 }
 
-drawTriangle();
+drawTriangle(2);
 
 window.onload = function() {
     initNavBar();
+    // let triangle = document.getElementById('triangle');
+    // triangle.addEventListener("mouseover",function(){
+    //     drawTriangle(4);
+    // });
 }
+
