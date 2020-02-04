@@ -14,24 +14,24 @@
 }
 
 html, body{
-    background: black;
+    background: white;
     min-height: 100%;
     margin: 0;
-    animation-name: darken;
-    animation-duration: 5s;
+    /* animation-name: darken; */
+    /* animation-duration: 5s; */
 }
 
-@keyframes darken {
+/* @keyframes darken {
   from {background-color: rgb(11,20,27);}
   to {background-color: black;}
-}
+} */
 
 #name{
     width: 100%;
     display: flex;
     justify-content: center;
     /* border: solid white 1px; */
-    color: white;
+    color: rgb(128, 126, 126);
     font-family: 'Ailerons', Arial, Helvetica, sans-serif;
     animation: name;
     animation-duration: 1.5s;

@@ -19,7 +19,11 @@
     width: 100%;
     /* border: solid white 1px; */
     text-decoration: none;
-    color: white;
+    color: rgb(128, 126, 126);;
+}
+
+.navbutton:hover{
+    color: rgb(131, 97, 5);
 }
 
 .navbutton p{
@@ -51,7 +55,7 @@ li {
     -webkit-transition: 0.5s ease;
 }
 li:hover {
-    text-shadow: 0px -2px 0px #000000, 0 0 5px rgba(255, 255, 255, 0.8), 0 -4px 15px rgba(255, 255, 255, 0.5);
+    text-shadow: 0px 0px 0px #000000, 0 0 5px rgba(255, 255, 255, 0.8), 0 -4px 15px rgba(255, 255, 255, 0.5);
 }
 li:nth-of-type(1):hover ~ .underbar {
     /* left: 10.5%; */

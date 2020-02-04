@@ -20,7 +20,7 @@
 }
 
 html, body{
-    background: rgb(11,20,27);
+    background: white; /*rgb(11,20,27);*/
     min-height: 100%;
     margin: 0;
 }
@@ -73,7 +73,7 @@ html, body{
     left: auto;
     right: auto;
     margin: 0 auto;
-    color:white;
+    color:rgb(97, 92, 92);
     font-family: "Ailerons", Arial, Helvetica, sans-serif;
     font-size: 3vw;
     line-height: .7vw;
@@ -86,7 +86,8 @@ html, body{
 }
 
 #denali:hover{
-    text-shadow: 0px -2px 0px #000000, 0 0 5px rgba(255, 255, 255, 0.8), 0 -4px 15px rgba(255, 255, 255, 0.5);
+    color: rgb(131, 97, 5);
+    text-shadow: 0px 0px 0px #000000, 0 0 5px rgba(255, 255, 255, 0.8), 0 -4px 15px rgba(255, 255, 255, 0.5);
 }
 
 @keyframes fadeInCenter {
@@ -108,7 +109,7 @@ html, body{
     width: 30vw;
     text-align: right;
     /* border: solid white 1px; */
-    color: rgba(255, 255, 255, 0.438);
+    color: rgb(128, 126, 126);
     -webkit-transition: 0.5s ease;
     cursor: pointer;
     text-decoration: none;
@@ -124,7 +125,7 @@ html, body{
     line-height: 1.2vw;
     width: 30vw;
     /* border: solid white 1px; */
-    color: rgba(255, 255, 255, 0.438);
+    color: rgb(128, 126, 126);
     -webkit-transition: 0.5s ease;
     cursor: pointer;
     text-decoration: none;
@@ -142,11 +143,11 @@ html, body{
 
 
 #filmmaker:hover{
-    color: white;
-    text-shadow: 0px -2px 0px #000000, 0 0 5px rgba(255, 255, 255, 0.8), 0 -4px 15px rgba(255, 255, 255, 0.5);
+    color: rgb(131, 97, 5);
+    text-shadow: 0px 0px 0px #000000, 0 0 5px rgba(255, 255, 255, 0.8), 0 -4px 15px rgba(255, 255, 255, 0.5);
 }
 
 #programmer:hover{
-    color: white;
-    text-shadow: 0px -2px 0px #000000, 0 0 5px rgba(255, 255, 255, 0.8), 0 -4px 15px rgba(255, 255, 255, 0.5);
+    color: rgb(131, 97, 5);
+    text-shadow: 0px 0px 0px #000000, 0 0 5px rgba(255, 255, 255, 0.8), 0 -4px 15px rgba(255, 255, 255, 0.5);
 }

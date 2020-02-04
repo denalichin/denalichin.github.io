@@ -1,6 +1,12 @@
 
+function highlightTriangle(){
+    console.log("hover");
+    drawTriangle(4);
+}
 
-
+function normalTriangle(){
+    drawTriangle(2);
+}
 
 function drawTriangle(stroke){
 
@@ -29,7 +35,7 @@ function drawTriangle(stroke){
     
     // the outline
     t.lineWidth = stroke;
-    t.strokeStyle = '#FFFFFF';
+    t.strokeStyle = '#a87900';
     t.stroke();
     
     // the fill color
