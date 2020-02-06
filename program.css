@@ -76,7 +76,7 @@ body{
 
 .project_div{
     /* border: solid black 1px; */
-    cursor: pointer;
+    /* cursor: pointer; */
 }
 
 .project_div:hover{
