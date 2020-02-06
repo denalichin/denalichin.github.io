@@ -25,6 +25,10 @@ body{
     background-color: white;
 }
 
+#content{
+    display: flex;
+}
+
 #name{
     /* border: solid white 1px; */
     width: 100%;
@@ -60,6 +64,25 @@ body{
     animation-duration: 1s;
 }
 
+#projects{
+    margin-left: 10vw;
+    color: rgb(128, 126, 126);
+    font-family: 'Copperplate', Arial, Helvetica, sans-serif;
+    animation: reveal;
+    animation-duration: 1s;
+    width: 35rem;
+    /* border: solid red 1px; */
+}
+
+.project_div{
+    /* border: solid black 1px; */
+    cursor: pointer;
+}
+
+.project_div:hover{
+    color: rgb(131, 97, 5);
+}
+
 @keyframes reveal {
     from {
         opacity: 0;
@@ -71,7 +94,23 @@ body{
     }
 }
 
-#lang{
+.sec-title{
     font-size: 1.5rem;
     /* font-family: 'Copperplate', Arial, Helvetica, sans-serif; */
+}
+
+.description{
+    font-size: 0.6rem;
+    /* border: solid black 2px; */
+}
+
+
+@media(max-width:480px){
+	#content{
+        flex-direction: column;
+    }
+
+    #projects{
+        max-width: 100%;
+    }
 }
