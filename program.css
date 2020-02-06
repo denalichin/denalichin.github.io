@@ -94,7 +94,7 @@ body{
 }
 
 .sec-title{
-    font-size: 1.5em;
+    font-size: 2rem;
     font-family: 'Copperplate', Arial, Helvetica, sans-serif;
 }
 
@@ -106,7 +106,6 @@ body{
     font-size: 0.6rem;
     /* border: solid black 2px; */
 }
-
 
 /* @media(max-width:480px){ */
 @media(max-device-width:850px),(max-width:850px){
