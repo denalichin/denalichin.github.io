@@ -104,8 +104,8 @@ html, body{
     height: 100%;
 /*    display: none;*/
     visibility: hidden;
-    color: rgb(0,0,0,0);
-    border: solid rgb(0,0,0,0) 1px;
+    color: rgba(0,0,0,0);
+    border: solid rgba(0,0,0,0) 1px;
     text-align: center;
     align-content: center;
     display: flex;
@@ -147,7 +147,6 @@ html, body{
     
     color: white;
     border: solid white 1px;
-    /*Since safari is lame and doesn't support rgba, declare colors like this */
     background: black; 
     /* opacity: 0.8; */
     /* background-color: rgb(0,0,0,0.8); */
