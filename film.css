@@ -129,7 +129,7 @@ html, body{
 .videoDiv:hover .after {
     visibility: visible;
     color: white;
-    background: rgba(0, 0, 0, .7);
+    background: rgba(0, 0, 0, 0.7);
     border: solid white 1px;
 }
 
@@ -147,7 +147,10 @@ html, body{
     
     color: white;
     border: solid white 1px;
-    background-color: rgb(0,0,0,.8);
+    /*Since safari is lame and doesn't support rgba, declare colors like this */
+    background: black; 
+    /* opacity: 0.8; */
+    /* background-color: rgb(0,0,0,0.8); */
     
     display: flex;
     justify-content: center;
@@ -160,8 +163,8 @@ html, body{
 }
 
 iframe{
-    height: 50vw;
-    width: 88.8vw;
+    height: 90%;
+    width: 100%;
     box-shadow: 0 0 40px rgba(255,255,255, .1);
 }
 
