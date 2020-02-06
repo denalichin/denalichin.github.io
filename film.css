@@ -185,3 +185,9 @@ iframe{
         height: 56.2vw;
     }
 }
+
+@media(max-device-width:850px),(max-width:480px){
+    #name{
+        margin-top: 2rem;
+    }
+}
