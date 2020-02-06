@@ -55,14 +55,15 @@ function populateProjects(){
         let div = document.createElement('div');
         div.className = "project_div";
         let description = document.createElement('div');
-        let paragraph = document.createElement('p');
+        let name = document.createElement('p');
 
         description.innerHTML = "<p class=\"description\">" + p.desc +"</p>";
 
-        div.appendChild(paragraph);
+        div.appendChild(name);
         div.appendChild(description);
 
-        paragraph.innerText = p.name;
+        name.innerText = p.name;
+        name.className = 'proj_name';
         proj_div.appendChild(div);
     }
 }
