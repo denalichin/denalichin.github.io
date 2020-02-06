@@ -151,3 +151,23 @@ html, body{
     color: rgb(131, 97, 5);
     text-shadow: 0px 0px 0px #000000, 0 0 5px rgba(255, 255, 255, 0.8), 0 -4px 15px rgba(255, 255, 255, 0.5);
 }
+
+@media(max-width:480px),(max-device-width:850px){
+
+    #triangle{
+        width: 50vw;
+        height: 50vw;
+    }
+
+    #denali{
+        font-size: 8vw;
+    }
+
+    #programmer{
+        display: none;
+    }
+
+    #filmmaker{
+        display: none;
+    }
+}
