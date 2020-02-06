@@ -111,7 +111,7 @@ body{
 /* @media(max-width:480px){ */
 @media(max-device-width:850px),(max-width:850px){
     #name{
-        margin-top: 2rem;
+        margin-top: 2em;
     }
     
     #content{
