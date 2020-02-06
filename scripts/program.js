@@ -22,7 +22,7 @@ let projects = [
         Trained a model to recognize articles of clothing',
     },
     {
-        name: 'This Portolio Website [2019]',
+        name: 'Portolio Website [2019]',
         desc: 'Designed and developed responsive website with HTML, CSS, Javascript <br> \
         Hosted website through github with custom domain name',
     },
@@ -69,5 +69,5 @@ function populateProjects(){
 }
 
 function highlightLanguages(){
-    
+
 }
