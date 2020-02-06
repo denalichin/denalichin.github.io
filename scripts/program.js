@@ -67,3 +67,7 @@ function populateProjects(){
         proj_div.appendChild(div);
     }
 }
+
+function highlightLanguages(){
+    
+}

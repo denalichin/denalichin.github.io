@@ -25,7 +25,7 @@ html, body{
 
 #contents{
     padding-top: 5vh;
-    height: auto%;
+    height: auto;
     width: 100%;
     /* border: solid white 1px; */
     display: flex;
@@ -38,7 +38,7 @@ html, body{
     /* color: rgb(128, 126, 126); */
     margin-left: 5vw;
     width: 19rem;
-    /* border: solid white 1px; */
+    /* border: solid black 1px; */
 }
 
 .icons{
@@ -81,10 +81,10 @@ html, body{
 }
 
 .denali{
-    padding-left: 2.5rem;
+    padding-left: 1.3em;
     color: rgb(128, 126, 126);
     font-family: 'Ailerons', Arial, Helvetica, sans-serif;
-    font-size: 2em;
+    font-size: 2rem;
     animation: reveal;
     animation-duration: 1.5s;
 }
@@ -92,13 +92,14 @@ html, body{
 @keyframes reveal {
     from {
         opacity: 0;
-        padding-left: 0rem;
+        padding-left: 0;
     }
     to {
         opacity: 1;
-        padding-left: 2.5rem;
+        padding-left: 1.3em; /*rem doesnt work here for safari*/
     }
 }
+
 
 #contact{
     font-family: "Copperplate", Arial, Helvetica, sans-serif;
