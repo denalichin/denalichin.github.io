@@ -114,7 +114,7 @@ body{
 
 
 /* @media(max-width:480px){ */
-@media(max-device-width:850px){
+@media(max-device-width:850px),(max-width:480px){
 	#content{
         flex-direction: column;
     }
