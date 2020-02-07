@@ -106,6 +106,7 @@ body{
 
 .proj_name{
     font-size: 1rem;
+    margin-bottom: 0;
 }
 
 .description{
