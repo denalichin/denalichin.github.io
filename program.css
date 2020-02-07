@@ -59,23 +59,52 @@ body{
     color:#BD8D2D;
 }
 
+#column-1{
+    /* border: solid black 1px; */
+}
+
+#column-2{
+    /* border: solid green 1px; */
+}
+
 #skills{
-    /* border:solid red 1px; */
-    /* margin-left: 10vw; */
+    height: 28rem;
+    /* border: solid black 1px; */
     color: rgb(128, 126, 126);
     font-family: 'Copperplate', Arial, Helvetica, sans-serif;
-    /* animation: reveal;
-    animation-duration: 1s; */
+}
+
+#technology{
+    /* border: solid black 1px; */
+    color: rgb(128, 126, 126);
+    font-family: 'Copperplate', Arial, Helvetica, sans-serif;
 }
 
 #projects{
+    height: 28rem;
     /* border: solid red 1px; */
     margin-left: 10vw;
     color: rgb(128, 126, 126);
     font-family: 'Copperplate', Arial, Helvetica, sans-serif;
     animation: reveal;
     animation-duration: 1s;
-    /* width: 35rem; */
+}
+
+#experience{
+    /* border: solid blue 1px; */
+    margin-left: 10vw;
+    color: rgb(128, 126, 126);
+    font-family: 'Copperplate', Arial, Helvetica, sans-serif;
+    animation: reveal;
+    animation-duration: 1s;
+}
+
+#experience{
+    margin-left: 10vw;
+    color: rgb(128, 126, 126);
+    font-family: 'Copperplate', Arial, Helvetica, sans-serif;
+    animation: reveal;
+    animation-duration: 1s;
 }
 
 
@@ -125,7 +154,26 @@ body{
         margin-right: 5vw;
     }
 
+    #skills{
+        height: auto;
+    }
+
+    #technology{
+        margin-top: 5rem;
+    }
+
     #projects{
+        margin-top: 5rem;
+        height: auto;
+        animation: none;
+        margin-left: 0;
+        max-width: 100%;
+        width: 100%; /*for some reason rem scales on mobile with width... */
+    }
+
+    #experience{
+        margin-top: 5rem;
+        animation: none;
         margin-left: 0;
         max-width: 100%;
         width: 100%; /*for some reason rem scales on mobile with width... */
