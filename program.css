@@ -110,7 +110,7 @@ body{
 
 
 .project_div:hover{
-    color: rgb(131, 97, 5);
+    color: rgb(196, 5, 5);
 }
 
 @keyframes reveal {
@@ -129,6 +129,7 @@ body{
 }
 
 .sec-title{
+    color: rgb(163, 134, 81);
     font-size: 1.5rem;
     font-family: 'Copperplate', Arial, Helvetica, sans-serif;
 }
