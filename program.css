@@ -113,6 +113,22 @@ body{
     color: rgb(196, 5, 5);
 }
 
+.highlight{
+    color: rgb(196, 5, 5);
+    padding-left: 10%;
+    /* animation: indent; */
+    -webkit-transition: 0.5s ease;
+}
+
+/* @keyframes indent{
+    from{
+        padding-left: 0;
+    }
+    to{
+        padding-left: 10%;
+    }
+} */
+
 @keyframes reveal {
     from {
         opacity: 0;
@@ -126,6 +142,7 @@ body{
 
 #skills p{
     font-size: 1rem;
+    -webkit-transition: 0.5s ease;
 }
 
 .sec-title{
