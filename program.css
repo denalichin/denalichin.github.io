@@ -26,7 +26,11 @@ body{
 }
 
 #content{
+    margin-left: 10vw;
+    /* border: solid black 1px; */
     display: flex;
+    animation: reveal;
+    animation-duration: 1s;
 }
 
 #name{
@@ -56,20 +60,22 @@ body{
 }
 
 #skills{
-    margin-left: 10vw;
+    /* border:solid red 1px; */
+    /* margin-left: 10vw; */
     color: rgb(128, 126, 126);
     font-family: 'Copperplate', Arial, Helvetica, sans-serif;
-    animation: reveal;
-    animation-duration: 1s;
+    /* animation: reveal;
+    animation-duration: 1s; */
 }
 
 #projects{
+    /* border: solid red 1px; */
     margin-left: 10vw;
     color: rgb(128, 126, 126);
     font-family: 'Copperplate', Arial, Helvetica, sans-serif;
     animation: reveal;
     animation-duration: 1s;
-    width: 35rem;
+    /* width: 35rem; */
 }
 
 
@@ -94,7 +100,7 @@ body{
 }
 
 .sec-title{
-    font-size: 2rem;
+    font-size: 1.5rem;
     font-family: 'Copperplate', Arial, Helvetica, sans-serif;
 }
 
@@ -115,9 +121,11 @@ body{
     
     #content{
         flex-direction: column;
+        margin-right: 5vw;
     }
 
     #projects{
+        margin-left: 0;
         max-width: 100%;
         width: 100%; /*for some reason rem scales on mobile with width... */
     }
