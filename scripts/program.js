@@ -195,15 +195,15 @@ function highlightLanguages(obj){
 
 function unhighlightLanguages(){
     let langList = document.getElementById('skills').children;
-    for (l of langList) {
-        if(l.className == 'highlight')
-            l.className = 'normal-size';
+    for (let i = 0; i < langList.length; i++) {
+        if(langList[i].className == 'highlight')
+            langList[i].className = 'normal-size';
     }
 
     let techList = document.getElementById('technology').children;
-    for (t of techList) {
-        if(t.className == 'highlight')
-            t.className = 'normal-size';
+    for (let i = 0; i < techList.length; i++) {
+        if(techList[i].className == 'highlight')
+            techList[i].className = 'normal-size';
     }
 }
 
