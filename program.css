@@ -140,10 +140,9 @@ body{
     }
 }
 
-#skills p{
+/* #skills p{
     font-size: 1rem;
-    -webkit-transition: 0.5s ease;
-}
+} */
 
 .sec-title{
     color: rgb(163, 134, 81);
@@ -151,9 +150,10 @@ body{
     font-family: 'Copperplate', Arial, Helvetica, sans-serif;
 }
 
-.proj_name{
+.normal-size{
     font-size: 1rem;
     margin-bottom: 0;
+    -webkit-transition: 0.5s ease;
 }
 
 .description{
