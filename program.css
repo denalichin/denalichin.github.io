@@ -116,7 +116,7 @@ body{
 .highlight{
     color: rgb(196, 5, 5);
     padding-left: 10%;
-    /* animation: indent; */
+    margin-bottom: 0;
     -webkit-transition: 0.5s ease;
 }
 
